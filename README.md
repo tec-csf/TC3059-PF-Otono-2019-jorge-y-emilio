@@ -1,4 +1,4 @@
-# *[Proyecto En la Nube]*
+# *Proyecto Final*
 ---
 #### Materia: *TC3059 Desarrollo de Aplicaciones en la Nube*
 
@@ -55,7 +55,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-*[Incluya aquí la descripción del proyecto.]*
+*Este proyecto trata de simular un sistema de calificaciones de una escuela, donde el maestro ingresa calificaciones y el alumno las recibe y puede ver. Ambos deben ingresar con una cuenta previamente hecha. Además, el maestro debe ser capaz de actualizar las calificaciones de sus alumnos.*
 
 ## 3. Solución
 
