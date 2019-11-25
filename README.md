@@ -64,18 +64,24 @@ Para hacer este proyecto base utilizamos php para incorporar la visualización d
 ### 3.1 Arquitectura de la solución
 ![Screenshot](arquitectura.png) 
 
-*El usuario usa la aplicacion. Al usarla un balanceador de carga se encarga de decidir a cual maquina virtual dirigirse. Al haber elegido una de las dos opciones disponibles, se mandará una peticion a la base de datos que tiene todos los datos de los estudiantes y profesores. La base de datos es escalable por si mayor cantidad de información llega a ser ingresada. Ademas, la red en la que se maneja este sistema es privada. *
+El usuario usa la aplicacion que se encuentra subida en Google Cloud Platform. Al usarla un balanceador de carga se encarga de decidir a cual maquina virtual dirigirse. Al haber elegido una de las dos opciones disponibles, se mandará una peticion a la base de datos que tiene todos los datos de los estudiantes y profesores. La base de datos es escalable por si mayor cantidad de información llega a ser ingresada. Ademas, la red en la que se maneja este sistema es privada. 
 
 ### 3.2 Descripción de los componentes
 
-*[Incluya aquí una descripción detallada de cada uno de los componentes de la arquitectura así como una justificación de la selección de cada componente]*
+*Google Cloud Platform - Plataforma donde se encuentra funcionando la aplicación
+*Balanceador de carga - Asigna la peticion del usuario (Profesor o Alumno)
+*Maquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
+*Base de datos, sql server - contiene las tablas con los registros que se obtienen de acuerdo a las peticiones que el usuario haga. 
 
 ### 3.3 Frontend
 
 *[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
 
 #### 3.3.1 Lenguaje de programación
+El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html. 
+
 #### 3.3.2 Framework
+
 #### 3.3.3 Librerías de funciones o dependencias
 
 ### 3.4 Backend
