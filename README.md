@@ -68,10 +68,10 @@ El usuario usa la aplicacion que se encuentra subida en Google Cloud Platform. A
 
 ### 3.2 Descripción de los componentes
 
-*Google Cloud Platform - Plataforma donde se encuentra funcionando la aplicación
-*Balanceador de carga - Asigna la peticion del usuario (Profesor o Alumno)
-*Maquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
-*Base de datos, sql server - contiene las tablas con los registros que se obtienen de acuerdo a las peticiones que el usuario haga. 
+* Google Cloud Platform - Plataforma donde se encuentra funcionando la aplicación
+* Balanceador de carga - Asigna la peticion del usuario (Profesor o Alumno)
+* Maquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
+* Base de datos, sql server - contiene las tablas con los registros que se obtienen de acuerdo a las peticiones que el usuario haga. 
 
 ### 3.3 Frontend
 
