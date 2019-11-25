@@ -75,10 +75,10 @@ El usuario usa la aplicacion que se encuentra subida en Google Cloud Platform. A
 
 ### 3.3 Frontend
 
-*[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
+El frontend de este proyecto es muy sencillo ya que consta de archivos php que funcionan para ingresar al registro que el usuario quiera. Cuenta, además, con espacios de texto para que el usuario ingrese la información que desee. La los archivos con los que se visualiza la información son css. 
 
 #### 3.3.1 Lenguaje de programación
-El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html. 
+El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html.  
 
 #### 3.3.2 Framework
 
