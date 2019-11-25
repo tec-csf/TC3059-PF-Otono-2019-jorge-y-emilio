@@ -1,12 +1,12 @@
 # *[Proyecto En la Nube]*
 ---
-#### Materia: *[TC3059 Desarrollo de Aplicaciones en la Nube]*
+#### Materia: *TC3059 Desarrollo de Aplicaciones en la Nube*
 
-##### Campus: *[Santa Fe]*
+##### Campus: *Santa Fe*
 
 ##### Integrantes:
-1. *[Emilio Hernandez Lopez]*
-2. *[Jorge Constanzo De la Vega Carrasco]*
+1. *Emilio Hernandez Lopez*
+2. *Jorge Constanzo De la Vega Carrasco*
 
 ---
 ## 1. Aspectos generales
