@@ -73,49 +73,14 @@ El usuario usa la aplicacion que se encuentra subida en Google Cloud Platform. A
 * Maquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
 * Base de datos, sql server - contiene las tablas con los registros que se obtienen de acuerdo a las peticiones que el usuario haga. 
 
-### 3.3 Frontend
+### 3.3 Proyecto
 
 El frontend de este proyecto es muy sencillo ya que consta de archivos php que funcionan para ingresar al registro que el usuario quiera. Cuenta, además, con espacios de texto para que el usuario ingrese la información que desee. La los archivos con los que se visualiza la información son css. 
 
 #### 3.3.1 Lenguaje de programación
 El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html.  
 
-#### 3.3.2 Framework
-
-#### 3.3.3 Librerías de funciones o dependencias
-
-### 3.4 Backend
-
-*[Incluya aquí una explicación de la solución utilizada para el backend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 3.4.1 Lenguaje de programación
-#### 3.4.2 Framework
-#### 3.4.3 Librerías de funciones o dependencias
-
-### 3.5 API
-
-*[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 3.5.1 Lenguaje de programación
-#### 3.5.2 Framework
-#### 3.5.3 Librerías de funciones o dependencias
-
-*[Incluya aquí una explicación de cada uno de los endpoints que forman parte de la API. Cada endpoint debe estar correctamente documentado.]*
-
-*[Por cada endpoint debe incluir lo siguiente:]*
-
-* **Descripción**:
-* **URL**:
-* **Verbos HTTP**:
-* **Headers**:
-* **Formato JSON del cuerpo de la solicitud**: 
-* **Formato JSON de la respuesta**:
-
-
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
 *[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación de este repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
 
-## 4. Referencias
-
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
