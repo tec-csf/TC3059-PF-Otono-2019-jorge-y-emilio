@@ -82,5 +82,8 @@ El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al 
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
+![Screenshot](GruposInstancias.jpeg) 
+![Screenshot](Instancias.jpeg) 
+![Screenshot](LoadBalancer.jpeg) 
 *[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación de este repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
 
