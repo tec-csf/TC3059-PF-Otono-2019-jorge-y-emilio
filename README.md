@@ -62,7 +62,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 Para hacer este proyecto base utilizamos php para incorporar la visualización del sistema, el frontend. En el caso del backend,tenemos 4 maquinas virtuales que simulan el sistema conectados a una base de datos mysql. Para que el sistema pueda ser visualizado estará subido en Google Cloud Platform. Las Ips con las que la plataforma se encuentra funcionando son privadas. Ademas, tiene un balanceador de carga que hace que funcionen de forma correcta las maquinas virtuales. La base de datos,realizada con mysql, es escalable. 
 
 ### 3.1 Arquitectura de la solución
-
+![Screenshot](arquitectura.png) 
 *[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
 
 *[Incluya una explicación del flujo de la información entre los diferentes componentes.]*
