@@ -55,7 +55,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-*Este proyecto trata de simular un sistema de calificaciones de un colegio, donde el profesor ingresa calificaciones y el alumno las recibe y es capaz de ver sus calificaciones computarizadas. Ambos deben ingresar con una cuenta previamente hecha. Además, el maestro debe ser capaz de actualizar las calificaciones de sus alumnos. Este sistema contará con una base de datos de donde se recuperará la información.
+Este proyecto trata de simular un sistema de calificaciones de un colegio, donde el profesor ingresa calificaciones y el alumno las recibe y es capaz de ver sus calificaciones computarizadas. Ambos deben ingresar con una cuenta previamente hecha. Además, el maestro debe ser capaz de actualizar las calificaciones de sus alumnos. Este sistema contará con una base de datos de donde se recuperará la información.
 
 ## 3. Solución
 
@@ -63,9 +63,8 @@ Para hacer este proyecto base utilizamos php para incorporar la visualización d
 
 ### 3.1 Arquitectura de la solución
 ![Screenshot](arquitectura.png) 
-*[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
 
-*[Incluya una explicación del flujo de la información entre los diferentes componentes.]*
+*El usuario usa la aplicacion. Al usarla un balanceador de carga se encarga de decidir a cual maquina virtual dirigirse. Al haber elegido una de las dos opciones disponibles, se mandará una peticion a la base de datos que tiene todos los datos de los estudiantes y profesores. La base de datos es escalable por si mayor cantidad de información llega a ser ingresada. Ademas, la red en la que se maneja este sistema es privada. *
 
 ### 3.2 Descripción de los componentes
 
