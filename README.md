@@ -1,12 +1,12 @@
-# *[Poner aquí el Título del Proyecto]*
+# *[Proyecto En la Nube]*
 ---
-#### Materia: *[Poner aquí nombre de la materia]*
+#### Materia: *[TC3059 Desarrollo de Aplicaciones en la Nube]*
 
-##### Campus: *[Poner aquí su campus]*
+##### Campus: *[Santa Fe]*
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]*
+1. *[Emilio Hernandez Lopez]*
+2. *[Jorge Constanzo De la Vega Carrasco]*
 
 ---
 ## 1. Aspectos generales
