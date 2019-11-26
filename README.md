@@ -91,5 +91,8 @@ El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al 
 
 ## 4. Visualización de la aplicación
 
+![Screenshot](intro.png) 
+
+![Screenshot](Materia.jpeg) 
 
 
