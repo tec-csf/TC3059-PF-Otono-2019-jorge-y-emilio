@@ -89,4 +89,7 @@ Balanceador de carga:
 #### 3.3.1 Lenguaje de programación
 El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html.  
 
+## 4. Visualización de la aplicación
+
+
 
