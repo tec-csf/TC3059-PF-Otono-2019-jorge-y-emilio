@@ -59,23 +59,23 @@ Este proyecto trata de simular un sistema de calificaciones de un colegio, donde
 
 ## 3. Solución
 
-Para hacer este proyecto base utilizamos php para incorporar la visualización del sistema, el frontend. En el caso del backend,tenemos 4 maquinas virtuales que simulan el sistema conectados a una base de datos mysql. Para que el sistema pueda ser visualizado estará subido en Google Cloud Platform. Las Ips con las que la plataforma se encuentra funcionando son privadas. Ademas, tiene un balanceador de carga que hace que funcionen de forma correcta las maquinas virtuales. La base de datos,realizada con mysql, es escalable. 
+Para hacer este proyecto se utilizó PHP para incorporar la visualización del sistema. Se levantaron cuatro maquinas virtuales que simulan el sistema conectados a una base de datos mysql. Para que el sistema pueda ser visualizado estará subido en Google Cloud Platform. Las ip's con las que la plataforma se encuentra funcionando son privadas. Además,cuenta con un balanceador de carga hace que las máquinas virtuales funcionen de acuerdo a las peticiones del usuario. La base de datos,realizada con mysql, es escalable. 
 
 ### 3.1 Arquitectura de la solución
 ![Screenshot](arquitectura.png) 
 
-El usuario usa la aplicacion que se encuentra subida en Google Cloud Platform. Al usarla un balanceador de carga se encarga de decidir a cual maquina virtual dirigirse. Al haber elegido una de las dos opciones disponibles, se mandará una peticion a la base de datos que tiene todos los datos de los estudiantes y profesores. La base de datos es escalable por si mayor cantidad de información llega a ser ingresada. Ademas, la red en la que se maneja este sistema es privada. 
+El usuario usa la aplicación que se encuentra en Google Cloud Platform. Se encuentra levantada de forma monolítica. Al usarla, un balanceador de carga se encarga en decidir a que máquina virtual se dirigirá. Al haber elegido una de las dos opciones disponibles, se enviará una petición a la base de datos que tiene todos los datos de los estudiantes y profesores. La base de datos es escalable, por lo tanto, si recibe mayor cantidad de datos, no se romperá y los recibirá. Además, la red en la que se maneja este sistema es privada. 
 
 ### 3.2 Descripción de los componentes
 
 * Google Cloud Platform - Plataforma donde se encuentra funcionando la aplicación
-* Balanceador de carga - Asigna la peticion del usuario (Profesor o Alumno)
-* Maquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
+* Balanceador de carga - Asigna la petición del usuario (Profesor o Alumno)
+* Máquina virtual - Contiene la funcionalidad de la aplicación, se encuentra en la funcionalidad de GCP, Compute Engine. 
 * Base de datos, sql server - contiene las tablas con los registros que se obtienen de acuerdo a las peticiones que el usuario haga. 
 
 ### 3.3 Proyecto
 
-El frontend de este proyecto es muy sencillo ya que consta de archivos php que funcionan para ingresar al registro que el usuario quiera. Cuenta, además, con espacios de texto para que el usuario ingrese la información que desee. La los archivos con los que se visualiza la información son css. 
+Este proyecto es muy sencillo ya que consta de archivos php que funcionan para ingresar al registro que el usuario quiera. Cuenta, además, con espacios de texto en los cuales el usuario ingresa la información que desea. Los estilos que se visualiza en los archivos están hechos con css. 
 
 Grupos de Instancias:
 ![Screenshot](GruposInstancias.jpeg) 
@@ -89,9 +89,4 @@ Balanceador de carga:
 #### 3.3.1 Lenguaje de programación
 El lenguaje utilizado fue php ya que facilita el desarrollo de servicios web al contar con compatibilidad en html.  
 
-## 3.6 Pasos a seguir para utilizar el proyecto
-
-
-
-*[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación de este repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
 
